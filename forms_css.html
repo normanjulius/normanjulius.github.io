@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <style>
+        body {
+            background-color: #708090;
+            font-family: Oswald;
+            padding: 10px;
+        }
+
+        form {
+            width: 300px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 1px;
+            border-radius: 1%;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 5px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 2px 2px;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: #04AA6D;
+        }
+
+        .button2 {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h1>Registration Form</h1>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="Nickname">Nick Name:</label><br>
+        <input type="text" id="Nname" name="Nname"><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        
+        <label for="Password">Password:</label><br>
+        <input type="text" id="Password" name="Password"><br>
+
+        <label for="Date of Birth">Date of Birth:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Others" name="gender" value="Others">
+        <label for="Others">Others</label><br>
+
+        <label for="Mobile">Mobile:</label><br>
+        <input type="text" id="mobile" name="mobile"><br>
+
+        <label for="Address">Address:</label><br>
+        <textarea name="address" cols="30" rows="10"></textarea><br>
+
+        <button class="button button1">Submit</button> 
+        <button class="button button2">Reset</button> 
+    </form>
+</body>
+</html>
